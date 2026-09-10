@@ -1,0 +1,51 @@
+{
+  "evaluations": 72,
+  "horizon_months": 360,
+  "gamblers_per_evaluation": 16384,
+  "winners": {
+    "unconstrained": {
+      "rules": {
+        "house_edge": 0.3,
+        "max_bet": 10.9868,
+        "comp_rate": 0.0,
+        "jackpot_size": 100.0,
+        "volatility": 2.0
+      },
+      "profit_per_gambler_year": 1462.3495,
+      "ruin_rate": 0.068256
+    },
+    "ruin<=0.02": {
+      "rules": {
+        "house_edge": 0.189666,
+        "max_bet": 5.0,
+        "comp_rate": 0.0,
+        "jackpot_size": 100.0,
+        "volatility": 2.0
+      },
+      "profit_per_gambler_year": 941.4983,
+      "ruin_rate": 0.019503
+    },
+    "ruin<=0.05": {
+      "rules": {
+        "house_edge": 0.3,
+        "max_bet": 6.53079,
+        "comp_rate": 0.00730449,
+        "jackpot_size": 242.216,
+        "volatility": 2.0
+      },
+      "profit_per_gambler_year": 1361.1054,
+      "ruin_rate": 0.049969
+    },
+    "ruin<=0.10": {
+      "rules": {
+        "house_edge": 0.3,
+        "max_bet": 10.9868,
+        "comp_rate": 0.0,
+        "jackpot_size": 100.0,
+        "volatility": 2.0
+      },
+      "profit_per_gambler_year": 1462.3495,
+      "ruin_rate": 0.068256
+    }
+  }
+}
